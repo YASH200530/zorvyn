@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment Variables
+.env
+.env.local
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+backend/finance.db
+
+# Build outputs
+frontend/dist/
+dist/
+
+# System Files
+.DS_Store
+Thumbs.db
